@@ -122,3 +122,47 @@ ul.Circle {
 figure {
   margin-left: 0 px;
 }
+table.mytable {
+  border-width: 0px;
+  border-color: #000000;
+  border-left-width: 0px;
+  border-left-color: #000000;
+  border-top-width: 0px;
+  border-top-color: #000000;
+  border-right-width: 0px;
+  border-right-color: #000000;
+  border-bottom-width: 0px;
+  border-bottom-color: #000000;
+  border-collapse: collapse;
+}
+table.mytable td {
+  border-width: 2px;
+  border-color: #000000;
+  border-left-width: 2px;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-right-width: 0;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+  border-left-style: solid;
+  border-left-color: #000000;
+}
+table.mytable td:first-child {
+  border-width: 2px;
+  border-color: #000000;
+  border-left-width: 0;
+  border-top-width: 2px;
+  border-top-color: #000000;
+  border-right-width: 0;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-bottom-color: #000000;
+}
+table.mytable tr:first-child td {
+  background-color: #C0C0C0;
+}
